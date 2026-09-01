@@ -1,0 +1,112 @@
+.team {
+    &__container {
+        overflow: hidden;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        background: linear-gradient(92.17deg, #bec7c2 41.05%, #a1b5ba 90.34%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 24px;
+    }
+
+    &__subtext {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        color: #F6F5EF;
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 38px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 24px;
+        padding: 24px;
+        width: 335px;
+        height: 208px;
+        flex-shrink: 0;
+        background-color: #1F212D;
+        margin-bottom: 14px;
+    }
+
+    &__worker {
+        border-radius: 72px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 18px;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 110%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #F6F5EF;
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(246, 245, 239, 0.5);
+    }
+
+    &__slider {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__dots {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-right: 94px;
+    }
+
+    &__dot__active {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        fill: #88b3b9;
+        stroke-width: 1px;
+        stroke: #93ABAE;
+        box-shadow: inset 2px 2px 3px 0 rgba(79, 98, 120, 0.9), inset 3px 3px 5px 0 rgba(213, 230, 245, 0.4), inset 0 0 4px 0 rgba(46, 68, 87, 0);
+    }
+
+    &__dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        color: #1F212D;
+        box-shadow: 2px 1px 3px 0 rgba(24, 55, 91, 0.2);
+    }
+
+    &__next {
+        border-radius: 8px;
+        background-color: #93ABAE;
+        width: 44px;
+        height: 44px;
+        border: none;
+        color: #F6F5EF;
+        transform: rotate(-90deg);
+        margin-top: 14px;
+    }
+}
