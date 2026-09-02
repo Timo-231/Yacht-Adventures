@@ -19,12 +19,3 @@ a {
     -webkit-text-decoration: 0;
     text-decoration: 0;
 }
-
-.container {
-    width: 375px;
-    margin: 0 auto;
-    padding: 0 20px;
-    outline: 1px solid red;
-    box-sizing: border-box;
-}
-
