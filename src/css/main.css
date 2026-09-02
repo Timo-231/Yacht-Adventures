@@ -393,6 +393,7 @@ body {
 .aktivities__button {
   display: flex;
   position: relative;
+  border: none;
   border-radius: 60px;
   padding: 14px 28px;
   width: 95px;
@@ -588,6 +589,26 @@ body {
   transform: rotate(-90deg);
   margin-top: 14px;
 }
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes cardAppear {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .footer__container {
   padding-top: 44px;
@@ -670,4 +691,13 @@ body {
   filter: blur(200px);
   bottom: -35px;
   left: 605px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  outline: 1px solid red;
+  box-sizing: border-box;
 }
