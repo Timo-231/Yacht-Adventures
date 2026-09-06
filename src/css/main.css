@@ -243,7 +243,6 @@ a {
   width: 375px;
   margin: 0 auto;
   padding: 0 20px;
-  outline: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -698,6 +697,15 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  outline: 1px solid red;
   box-sizing: border-box;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
